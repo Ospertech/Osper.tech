@@ -353,7 +353,7 @@ video {
 }
 
 
-.contentAbout h2 {
+.about_title {
     padding: 0rem 2rem 2rem 2rem;
     margin-bottom: 1rem;
 
@@ -528,6 +528,12 @@ video {
     /* height: 100vh; */
 }
 
+.service_title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #2E2E35;
+}
+
 .contentServices h2 {
     padding: 2rem 2rem 2rem 2rem;
     margin-bottom: 1rem;
@@ -539,7 +545,7 @@ video {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 1rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     width: 100%;
     /* padding: 7rem; */
 
@@ -647,11 +653,15 @@ video {
 
 }
 
-.portfolio h2 {
+.portfolio_title {
     text-align: center;
 
     padding: 2rem 2rem 2rem 2rem;
     margin-bottom: 1rem;
+
+    font-size: 35px;
+    font-weight: 700;
+    color: #2E2E35;
 }
 
 .contenido_general {
@@ -753,6 +763,12 @@ video {
     /* margin-top: 11rem; */
 
 
+}
+
+.contact_title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #2E2E35;
 }
 
 
@@ -1144,6 +1160,16 @@ input[type="submit"]:hover {
 
     .contentAbout {
         padding: 5rem 1rem 1rem 1rem;
+    }
+
+    .contentAbout h2 {
+        padding: 0rem 1rem 1rem 1rem;
+        margin: 0;
+
+    }
+
+    .contentAbout button {
+        margin: 1rem;
     }
 
     .contentServices {

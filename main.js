@@ -48,7 +48,7 @@ ScrollReveal({
     Delay: 400
 });
 
-ScrollReveal().reveal('.title, .contentAboutThree__bakcground h2 ', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.title, .contentAboutThree__bakcground h2, .about_title, .aboutTrhee_title, .service_title, .portfolio_title, .contact_title ', { delay: 500, origin: 'left' });
 ScrollReveal().reveal('.parrafo,  .formulario_contacto', { delay: 600, origin: 'bottom' });
 ScrollReveal().reveal('.cards .card, .slide-track, .contenido_secundario', { delay: 500, origin: 'bottom', interval: 200 });
 ScrollReveal().reveal('.footer ul li a i', { delay: 100, origin: 'top', interval: 150 });
