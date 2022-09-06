@@ -23,6 +23,11 @@ window.onscroll = () => {
         content.classList.remove("sticky");
 }
 
+
+
+
+
+
 // ---------------Progress Bar----------------
 
 // const progress = document.getElementById('progressbar');
@@ -46,8 +51,8 @@ ScrollReveal({
 ScrollReveal().reveal('.title, .contentAboutThree__bakcground h2 ', { delay: 500, origin: 'left' });
 ScrollReveal().reveal('.parrafo,  .formulario_contacto', { delay: 600, origin: 'bottom' });
 ScrollReveal().reveal('.cards .card, .slide-track, .contenido_secundario', { delay: 500, origin: 'bottom', interval: 200 });
-ScrollReveal().reveal('.footer ul li a i', { delay: 500, origin: 'top', interval: 250 });
-ScrollReveal().reveal('.contentAbout button, .btnac', { delay: 700, origin: 'rigth' });
+ScrollReveal().reveal('.footer ul li a i', { delay: 100, origin: 'top', interval: 150 });
+ScrollReveal().reveal('.contentAbout button, .btnac, .inputSubmit', { delay: 100, origin: 'rigth' });
 
 
 
@@ -60,6 +65,10 @@ ScrollReveal().reveal('.contentAbout button, .btnac', { delay: 700, origin: 'rig
 window.addEventListener("load", () => {
     document.getElementById('loader').classList.toggle('loader2')
 })
+
+
+
+
 
 
 
@@ -118,4 +127,20 @@ const typed = new Typed('.typed', {
 });
 
 
+// ---------------Menu color scroll----------------
 
+const li = document.querySelectorAll('.links');
+const sec = document.querySelectorAll('section');
+
+
+function activeMenu() {
+    let len = sec.length;
+
+    while (--len && window.scrollY + 97 < sec[len].offsetTop) {
+
+    }
+    li.forEach(ltx => ltx.classList.remove("active"));
+    li[len].classList.add("active");
+}
+activeMenu();
+window.addEventListener("scroll", activeMenu);

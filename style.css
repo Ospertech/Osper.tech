@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -69,6 +70,7 @@
 
 .menu-list li {
     list-style: none;
+    padding: 0.5rem;
 }
 
 
@@ -76,7 +78,8 @@
     color: #fff;
     font-size: 15px;
     font-weight: 500;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    padding: 1rem;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -84,6 +87,14 @@
 .menu-list li a:hover {
     color: cyan;
 }
+
+.active {
+    color: cyan !important;
+}
+
+
+
+
 
 /* .banner {
     height: 100vh;
@@ -125,13 +136,13 @@
     font-size: 20px;
     cursor: pointer;
     display: none;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .icon.cancel-btn {
     position: absolute;
-    right: 10px;
-    top: 20px;
+    right: 1px;
+    top: 10px;
 }
 
 
@@ -330,7 +341,6 @@ video {
 
 
 
-
 /* -------------------About------------------------------- */
 
 .contentAbout {
@@ -340,6 +350,16 @@ video {
     justify-content: center;
     padding: 5rem;
     background: #EEEEEE;
+}
+
+
+.contentAbout h2 {
+    padding: 0rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+
+    font-size: 35px;
+    font-weight: 700;
+    color: #2E2E35;
 }
 
 .parrafo {
@@ -429,9 +449,13 @@ video {
 /* -------------------About three------------------- */
 
 .contentAboutThree {
-    background: #111111 url(./assets/images/teamHandsBlack.jpg) no-repeat;
+    /* background: #111111 url(./assets/images/teamHandsBlack.jpg) no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/images/teamHands.jpg') no-repeat center center /cover;
+
+    /* padding: 5rem; */
 
 
     /* padding: 5rem; */
@@ -496,16 +520,16 @@ video {
 
 .contentServices {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 3rem;
+    justify-content: center;
+    padding: 3rem 3rem 1rem 3rem;
     width: 100%;
     /* height: 100vh; */
 }
 
 .contentServices h2 {
-    padding: 0rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     margin-bottom: 1rem;
 
 }
@@ -616,7 +640,7 @@ video {
 /*WORKS PAGE*/
 
 .portfolio {
-    padding: 2rem 5rem 5rem 5rem;
+    padding: 3rem 3rem 1rem 3rem;
     /* border: 1px solid #000000; */
     /* background: #EEEEEE; */
 
@@ -625,7 +649,9 @@ video {
 
 .portfolio h2 {
     text-align: center;
-    padding: 3rem 0 6rem 0;
+
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
 }
 
 .contenido_general {
@@ -722,7 +748,11 @@ video {
 
 
 .contact {
-    padding: 5rem;
+    padding: 3rem 3rem 1rem 3rem;
+
+    /* margin-top: 11rem; */
+
+
 }
 
 
@@ -960,7 +990,7 @@ input[type="submit"]:hover {
         top: 0;
         left: -100%;
         height: 100vh;
-        width: 100%;
+        width: 50%;
         /* max-width: 100%; */
         /* background-image: url(./menpro.jpg);
         background-position: center;
@@ -977,16 +1007,16 @@ input[type="submit"]:hover {
 
     }
 
-    .menu-list.active li {
+    /* .menu-list.active li {
         padding-left: 3rem;
-    }
+    } */
 
     .navbar .menu-list li {
         margin-top: 45px;
     }
 
     .navbar .menu-list li a {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .contentAbout__two {
@@ -1036,9 +1066,9 @@ input[type="submit"]:hover {
         width: 100%;
     }
 
-    .contentAbout {
+    /* .contentAbout {
         padding: 2rem;
-    }
+    } */
 
     .contentAboutThree__bakcground {
         padding: 2.5rem;
@@ -1100,9 +1130,9 @@ input[type="submit"]:hover {
         align-items: center;
     }
 
-    .contentAbout {
-        padding: 1rem;
-    }
+
+
+
 
     .title-text-in h3 {
         text-align: center;
@@ -1112,16 +1142,22 @@ input[type="submit"]:hover {
         padding: 1rem;
     }
 
+    .contentAbout {
+        padding: 5rem 1rem 1rem 1rem;
+    }
+
     .contentServices {
-        padding: 1rem;
+        padding: 5rem 1rem 1rem 1rem;
+
     }
 
     .portfolio {
-        padding: 1rem;
+        padding: 5rem 1rem 1rem 1rem;
+
     }
 
     .contact {
-        padding: 1rem;
+        padding: 11rem 1rem 1rem 1rem;
     }
 
 }

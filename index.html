@@ -22,15 +22,16 @@
         <nav class="navbar">
             <div class="content navbarSticky">
                 <div class="logo"><a href="#">OSPER</a><span>.tech</span></div>
+
                 <ul class="menu-list">
                     <div class="icon cancel-btn">
                         <i class="fas fa-times"></i>
                     </div>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="links active" href="#banner">Home</a></li>
+                    <li><a class="links" href="#about">About</a></li>
+                    <li><a class="links" href="#services">Services</a></li>
+                    <li><a class="links" href="#portfolio">Portfolio</a></li>
+                    <li><a class="links" href="#contact">Contact</a></li>
                 </ul>
                 <div class="icon menu-btn">
                     <i class="fas fa-bars"></i>
@@ -41,7 +42,7 @@
     <!-- adadad -->
     <!-- asdknaskldnsakadnsdlknad -->
     <main class="main">
-        <div class="banner">
+        <section class="banner" id="banner">
             <video autoplay muted id="video1" class="video1">
                 <source src="./assets/video/mac.mp4" type="video/mp4">
             </video>
@@ -57,58 +58,63 @@
                     <span class="typed"></span>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="contentGral">
-            <div class="contentAbout">
-                <h2 class="title">About us</h2>
-                <div class="parrafo">
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facilis vero quia
-                        quas
-                        dolorem possimus aspernatur, fugit quam modi minima incidunt sit fuga eos eligendi aut tempora,
-                        repellat
-                        perferendis, commodi totam illo quos corrupti voluptatem omnis. Dolores laborum perferendis
-                        cupiditate
-                        sint deserunt corporis incidunt reiciendis adipisci itaque, reprehenderit quo! Aliquam labore
-                        quae
-                        corporis assumenda, recusandae temporibus. Totam, corrupti veniam.
-                    </p>
-
-                </div>
-                <button class="btna">CHECK OUR SERVICES</button>
-            </div>
-
-
-            <div class="contentAboutThree">
-                <div class="contentAboutThree__bakcground">
-                    <h2>Our Vision</h2>
+            <section class="about" id="about">
+                <div class="contentAbout">
+                    <h2>About us</h2>
                     <div class="parrafo">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facilis
-                            vero
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facilis vero
                             quia
                             quas
                             dolorem possimus aspernatur, fugit quam modi minima incidunt sit fuga eos eligendi aut
                             tempora,
                             repellat
-                            perferendis, commodi totam illo quos corrupti voluptatem omnis. Dolores laborum
-                            perferendis
+                            perferendis, commodi totam illo quos corrupti voluptatem omnis. Dolores laborum perferendis
                             cupiditate
                             sint deserunt corporis incidunt reiciendis adipisci itaque, reprehenderit quo! Aliquam
                             labore
                             quae
                             corporis assumenda, recusandae temporibus. Totam, corrupti veniam.
                         </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facilis
-                            vero
-                            quia
-                            quas
-                            dolorem possimus aspernatur, fugit quam modi minima incidunt sit fuga eos eligendi.
-                        </p>
+
                     </div>
-                    <button class="btnac">SEE OUR WORKS</button>
+                    <button class="btna">CHECK OUR SERVICES</button>
                 </div>
-            </div>
-            <div class="services">
+
+
+                <div class="contentAboutThree">
+                    <div class="contentAboutThree__bakcground">
+                        <h2>Our Vision</h2>
+                        <div class="parrafo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facilis
+                                vero
+                                quia
+                                quas
+                                dolorem possimus aspernatur, fugit quam modi minima incidunt sit fuga eos eligendi aut
+                                tempora,
+                                repellat
+                                perferendis, commodi totam illo quos corrupti voluptatem omnis. Dolores laborum
+                                perferendis
+                                cupiditate
+                                sint deserunt corporis incidunt reiciendis adipisci itaque, reprehenderit quo! Aliquam
+                                labore
+                                quae
+                                corporis assumenda, recusandae temporibus. Totam, corrupti veniam.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facilis
+                                vero
+                                quia
+                                quas
+                                dolorem possimus aspernatur, fugit quam modi minima incidunt sit fuga eos eligendi.
+                            </p>
+                        </div>
+                        <button class="btnac">SEE OUR WORKS</button>
+                    </div>
+                </div>
+            </section>
+            <section class="services" id="services">
                 <div class="contentServices">
                     <h2 class="title">Services</h2>
                     <div class="cards">
@@ -148,8 +154,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="contentAbout__two">
+                <!-- <div class="contentAbout__two">
 
                 <img src="./assets/images/womenpro.jpg" alt="">
                 <div class="content-titleText">
@@ -191,55 +196,57 @@
 
             </div> -->
 
-            <div class="slider">
-                <!-- <h4>Our Clients</h4> -->
-                <div class="slide-track">
-                    <div class="slide">
-                        <img src="./assets/images/1-1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/2-2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/3-3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/4-4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/5-5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/6-6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/7-7.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/1-1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/2-2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/3-3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/4-4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/5-5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/6-6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/7-7.png" alt="">
+                <div class="slider">
+                    <!-- <h4>Our Clients</h4> -->
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./assets/images/1-1.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/2-2.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/3-3.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/4-4.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/5-5.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/6-6.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/7-7.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/1-1.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/2-2.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/3-3.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/4-4.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/5-5.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/6-6.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/images/7-7.png" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="portfolio">
+
+            <section class="portfolio" id="portfolio">
                 <h2 class="title">Recent Works</h2>
 
                 <div class="wrap_primario">
@@ -412,12 +419,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="contact">
+            </section>
+            <section class="contact" id="contact">
                 <div class="wrap_primario">
                     <div class="contenido_total wrapper">
                         <div class="texto_principal">
-                            <h2 class="title">CONTACT US</h2>
+                            <h2 class="title">Contact Us</h2>
                             <!-- <P>I'm available for any freelance job.</P>
                             <p>Just write me!</p> -->
                         </div>
@@ -431,12 +438,12 @@
 
                                 <label for="message"></label>
                                 <textarea id="message" placeholder="Enter your message"></textarea>
-                                <input type="submit" value="Submit">
+                                <input class="inputSubmit" type="submit" value="Submit">
                             </form>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </main>
     <div>
