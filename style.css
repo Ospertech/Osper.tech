@@ -74,7 +74,7 @@
 
 .menu-list li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     margin-left: 25px;
     text-decoration: none;
@@ -616,7 +616,7 @@ video {
 /*WORKS PAGE*/
 
 .portfolio {
-    padding: 5rem;
+    padding: 2rem 5rem 5rem 5rem;
     /* border: 1px solid #000000; */
     /* background: #EEEEEE; */
 

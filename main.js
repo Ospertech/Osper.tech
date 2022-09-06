@@ -34,6 +34,26 @@ window.onscroll = () => {
 // }
 
 
+//SCROLL REVEAL
+
+ScrollReveal({
+    // reset: true,
+    distance: '60px',
+    duration: 2500,
+    Delay: 400
+});
+
+ScrollReveal().reveal('.title, .contentAboutThree__bakcground h2 ', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.parrafo', { delay: 600, origin: 'bottom' });
+ScrollReveal().reveal('.contentAbout button, .btnac, .formulario_contacto', { delay: 700, origin: 'rigth' });
+ScrollReveal().reveal('.cards .card, .slide-track, .contenido_secundario', { delay: 500, origin: 'bottom', interval: 200 });
+ScrollReveal().reveal('.footer ul li a i', { delay: 500, origin: 'top', interval: 250 });
+
+
+
+
+
+
 // ----------------Loader----------------
 
 window.addEventListener("load", () => {
