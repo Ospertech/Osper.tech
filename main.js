@@ -48,11 +48,15 @@ ScrollReveal({
     Delay: 400
 });
 
-ScrollReveal().reveal('.title, .contentAboutThree__bakcground h2, .about_title, .aboutTrhee_title, .service_title, .portfolio_title, .contact_title ', { delay: 500, origin: 'left' });
-ScrollReveal().reveal('.parrafo,  .formulario_contacto', { delay: 600, origin: 'bottom' });
-ScrollReveal().reveal('.cards .card, .slide-track, .contenido_secundario', { delay: 500, origin: 'bottom', interval: 200 });
-ScrollReveal().reveal('.footer ul li a i', { delay: 100, origin: 'top', interval: 150 });
-ScrollReveal().reveal('.contentAbout button, .btnac, .inputSubmit', { delay: 100, origin: 'rigth' });
+ScrollReveal().reveal('.title, .contentAboutThree__bakcground h2, .about_title, .aboutTrhee_title, .service_title, .portfolio_title, .contact_title, .services_textos, .contentAbout a ', { delay: 100, origin: 'left' });
+ScrollReveal().reveal(' .parrafo,  .formulario_contacto, .services_svg', { delay: 200, origin: 'bottom' });
+ScrollReveal().reveal('.cards .card, .slide-track, .contenido_secundario', { delay: 100, origin: 'bottom', interval: 200 });
+ScrollReveal().reveal('.footer ul li a i, .laptop_img', { delay: 50, origin: 'top', interval: 150 });
+ScrollReveal().reveal('.btnac, .inputSubmit', { delay: 50, origin: 'rigth' });
+
+
+ScrollReveal().reveal('.services_textos h3 ', { delay: 5, origin: 'left' });
+
 
 
 
@@ -108,9 +112,10 @@ video3.onended = () => {
 const typed = new Typed('.typed', {
     strings: [
         '<i class="mascota">Custom Web Design</i>',
+        '<i class="mascota">App Development</i>',
         '<i class="mascota">Institutional or Business</i>',
         '<i class="mascota">Personal Portfolios</i>',
-        '<i class="mascota">E-commerce</i>'
+        '<i class="mascota">e-commerce</i>'
     ],
     stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
     typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
