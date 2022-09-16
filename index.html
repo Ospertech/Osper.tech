@@ -457,24 +457,20 @@
                             <h2 class="contact_title">Contact Us</h2>
                         </div>
                         <div class="formulario_contacto">
-                            <form action="" method="get" enctype="">
-                                <label for="name"></label>
-                                <input type="text" placeholder="Enter your name" id="name">
+                            <form action="" id="form-mail" method="get" enctype="">
+                                <label for="nombre"></label>
+                                <input type="text" placeholder="Enter your name" id="nombre" name="nombre">
 
-                                <label for="email"></label>
-                                <input type="email" placeholder="Email adress" id="email">
+                                <label for="telefono"></label>
+                                <input type="text" placeholder="Phone" id="telefono" name="telefono">
 
-                                <label for="message"></label>
-                                <textarea id="message" placeholder="Enter your message"></textarea>
+                                <label for="correo"></label>
+                                <input type="email" placeholder="Email adress" id="correo" name="correo">
+
+                                <label for="mensaje"></label>
+                                <textarea id="mensaje" placeholder="Enter your message" name="mensaje"></textarea>
                                 <input class="inputSubmit" type="submit" value="Submit">
                             </form>
-
-
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -504,7 +500,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="mail.js"></script>
+    <script src="./Controller/mail.js"></script>
     <script src="./main.js"></script>
 </body>
 
