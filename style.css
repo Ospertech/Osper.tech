@@ -1000,10 +1000,10 @@ input[type="submit"]:hover {
     gap: 2rem;
     /* padding: 2rem; */
 
-    -webkit-mask-image: url(./assets/images/background-footer.svg);
+    /* -webkit-mask-image: url(./assets/images/background-footer.svg);
     mask-image: url(./assets/images/background-footer.svg);
     -webkit-mask-size: cover;
-    mask-size: cover;
+    mask-size: cover; */
 
     /* width: 100%;
     position: fixed;
