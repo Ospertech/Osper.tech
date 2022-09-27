@@ -1,7 +1,5 @@
 // variable para almacenar el email al cual se enviara el mensaje
-const emailUser = 'japoss2020.2@gmail.com'
-// boton para registrar el email
-// let $ingresarMail = document.querySelector('#ingresar-email')
+const emailUser = 'osper.tech@gmail.com'
 // hacemos referencia al formulario
 let $enviarMail = document.querySelector('#form-mail')
 
@@ -16,43 +14,10 @@ function validarEmail(email) {
 	}
 }
 
-// funcion para registrar el email
-// function registrarEmail() {
-// 	swal('Importante', 'Escribe tu email:', 'info', {
-// 		content: 'input',
-// 	}).then((value) => {
-// 		if (value === '') {
-// 			swal(
-// 				'Advertencia',
-// 				'NO ingreso su email. Descuide, podra hacerlo luego',
-// 				'warning'
-// 			)
-// 		} else {
-// 			if (!validarEmail(value)) {
-// 				swal('Error', 'Debe Ingresar un email valido', 'error')
-// 			} else {
-// 				swal('Perfecto', 'Email Guradado', 'success')
-// 				emailUser = value
-// 				console.log(emailUser)
-// 			}
-// 		}
-// 	})
-// }
-
-// llamamos a la funcion registarEmail
-// registrarEmail()
-
-// registramos el email
-// $ingresarMail.addEventListener('click', () => {
-// 	registrarEmail()
-// })
-
-
 // enviar el mensaje
 $enviarMail.addEventListener('submit', (e) => {
 	// prevenimos el recargo cuando se haga el submit
 	e.preventDefault();
-
 
 
 	// validamos el email al cual se enviara el mensaje

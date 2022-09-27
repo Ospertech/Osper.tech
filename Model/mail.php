@@ -109,7 +109,7 @@
   if( $sendMail ) {
     echo json_encode(array(
       'error' => false,
-      'mensaje' => "Mensaje Enviado 😉"
+      'mensaje' => "Mensaje Enviado"
     ));
   } else {
     echo json_encode(array(
