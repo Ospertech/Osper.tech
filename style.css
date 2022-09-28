@@ -48,6 +48,11 @@
     padding: 2rem;
 }
 
+.logo a img {
+    width: 150px;
+}
+
+
 .logo span {
     color: #EEEEEE;
 }
